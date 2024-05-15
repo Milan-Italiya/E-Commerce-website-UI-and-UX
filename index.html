@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- <header id="heading">
+        <h1>Project 6 => E-Commerce Website</h1>
+    </header> -->
+
+    <!-- header and navbar  -->
+    <section id="header">
+        <img src="images/logocemen.png" alt="">
+        <div>
+            <ul id="navBar">
+                <li class="navElement"><a href="index.html" class="active">Home</a></li>
+                <li class="navElement"><a href="shop.html">Shop</a></li>
+                <li class="navElement"><a href="blog.html">Blog</a></li>
+                <li class="navElement"><a href="about.html">About</a></li>
+                <li class="navElement"><a href="contact.html">Contact</a></li>
+                <li class="navElement" id="cart"><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- hero Section -->
+    <section id="hero">
+        <div class="details">
+            <h4>Trade-in-offer</h4>
+            <h2>Super value deals</h2>
+            <h1 style="color:green;">On all products</h1>
+            <p>Save more with coupones & up to 70% off !</p>
+            <button class="shop">Shop Now</button>
+        </div>
+        <div>
+            <img src="images/heros.png" alt="">
+        </div>
+    </section>
+
+    <!-- features Section -->
+    <section id="features" class="padding">
+        <div class="features-prod">
+            <img src="images/Features/Free Shipping.jpg" alt="">
+
+            <h3 style="background-color: cadetblue;color:black;">
+                Free Shipping
+            </h3>
+        </div>
+        <div class="features-prod">
+            <img src="images/Features/Live chat.jpeg" alt="">
+
+            <h3 style="background-color: cadetblue;color:black;">
+                Live Chat
+            </h3>
+        </div>
+        <div class="features-prod">
+            <img src="images/Features/Mobile Friendly.jpeg" alt="">
+
+            <h3 style="background-color: cadetblue;color:black;">
+                Mobile Friendly
+            </h3>
+        </div>
+        <div class="features-prod">
+            <img src="images/Features/Navigation.jpg" alt="">
+
+            <h3 style="background-color: cadetblue;color:black;">
+                Navigation
+            </h3>
+        </div>
+        <div class="features-prod">
+            <img src="images/Features/Product Description.jpeg" alt="">
+
+            <h3 style="background-color: cadetblue;color:black;">
+                Product info.
+            </h3>
+        </div>
+    </section>
+
+
+    <!-- Products Section -->
+    <div class="padding">
+        <h2 id="pro-heading">Featured Products</h2>
+        <p id="para">All Seasons New Modern Design Costumes</p>
+    </div>
+    <section id="products" class="padding-2">
+        <!-- 1st Row -->
+        <div class="pro-container">
+            <img src="Products/hoodie.jpeg" alt="No Load">
+            <p class="des">Unique Losangles Hoodie</p>
+            <p class="des">Price : $71</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/jeans.jpeg" alt="No Load">
+            <p class="des">Coopar Jeans</p>
+            <p class="des">Price : $85</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/Kurtee.jpeg" alt="No Load">
+            <p class="des">New Delite Kurtee</p>
+            <p class="des">Price : $105</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/shirt.jpeg" alt="No Load">
+            <p class="des">Adidas Shirt</p>
+            <p class="des">Price : $95</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/kurtu.jpeg" alt="No Load">
+            <p class="des">Delite White Kurtu</p>
+            <p class="des">Price : $600</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <!-- 2nd row -->
+        <div class="pro-container">
+            <img src="Products/t-shirt.jpeg" alt="No Load">
+            <p class="des">Brand New Helloween T-shirt</p>
+            <p class="des">Price : $115</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/Saree.jpeg" alt="No Load">
+            <p class="des">Comfort Lime green Saree</p>
+            <p class="des">Price : $500</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/Sweater.jpg" alt="No Load">
+            <p class="des">Winter Nike Sweater</p>
+            <p class="des">Price : $250</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/dress.jpg" alt="No Load">
+            <p class="des">Galaxy Beatiful Dress</p>
+            <p class="des">Price : $120</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/Sockes.jpeg" alt="No Load">
+            <p class="des">Finaj Smooth Sockes</p>
+            <p class="des">Price : $5</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <!-- 3rd row -->
+        <div class="pro-container">
+            <img src="Products/n2.jpg" alt="No Load">
+            <p class="des">White Land Shirt</p>
+            <p class="des">Price : $54</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/f1.jpg" alt="No Load">
+            <p class="des">Adidas Night T-Shirt</p>
+            <p class="des">Price : $60</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/f5.jpg" alt="No Load">
+            <p class="des">Adidas Purple T-Shirt</p>
+            <p class="des">Price : $5</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/f6.jpg" alt="No Load">
+            <p class="des">Comfort Orange Shirt</p>
+            <p class="des">Price : $7</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/n5.jpg" alt="No Load">
+            <p class="des">Frozen cool Shirt</p>
+            <p class="des">Price : $49</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <!-- 4th row -->
+        <div class="pro-container">
+            <img src="Products/n4.jpg" alt="No Load">
+            <p class="des">humble T-Shirt</p>
+            <p class="des">Price : $55</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/n7.jpg" alt="No Load">
+            <p class="des">Desert Khakhi Shirt</p>
+            <p class="des">Price : $60</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/n8.jpg" alt="No Load">
+            <p class="des">Nightmare Shirt</p>
+            <p class="des">Price : $70</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/f4.jpg" alt="No Load">
+            <p class="des">White Forest Shirt</p>
+            <p class="des">Price : $39</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+        <div class="pro-container">
+            <img src="Products/f7.jpg" alt="No Load">
+            <p class="des">Flower Pants</p>
+            <p class="des">Price : $80</p>
+            <button class="des" id="btnCart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section id="banner">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% off</span> - All t-shirts & Accessories</h2>
+        <button>Explore Now</button>
+    </section>
+
+    <!-- Small Banner Section -->
+    <section id="sm-banner">
+        <div class="sm-banner-prod">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale </span>
+            <button id="firstBtn">Learn More</button>
+        </div>
+        <div class="sm-banner-prod">
+            <h4>spring summer</h4>
+            <h2>upcoming season</h2>
+            <span>The best classic dress is on sale</span>
+            <button id="secBtn">Collection</button>
+        </div>
+    </section>
+
+    <!-- Other Banner Section -->
+    <section id="OtherBanners">
+        <div class="OtherBanners-prod">
+            <h2>SEASONAL SALE</h2>
+            <h4>Winter Collection - 59% OFF</h4>
+        </div>
+        <div class="OtherBanners-prod">
+            <h2>NEW FOOTWARE COLLECTION</h2>
+            <h4>Spring / Summer 2022</h4>
+        </div>
+        <div class="OtherBanners-prod">
+            <h2>T-SHIRTS</h2>
+            <h4>New Trendy prints</h4>
+        </div>
+    </section>
+
+    <!-- News Letter Section -->
+    <section id="NewsLetter">
+        <div id="Instruction">
+            <h3>Sign Up For Newsletters</h3>
+            <p>Get Email updates about our latest shop and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Enter Your Email"><br>
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="padding">
+        <div class="cols">
+            <img src="images/logocemen.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>756 Washingtone Road. California City. USA.</p>
+            <p><strong>Phone: </strong>(+06) 74582 41523 / (+06) 52415 63526</p>
+            <p><strong>Hours: </strong>10:00 - 18:00. Mon - Fri</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="cols">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="cols">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="cols-1">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="rows">
+                <img id="app" src="pay/app.jpg" alt="">
+                <img src="pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="pay/pay.png" alt="">
+        </div>
+    </footer>
+    <p id="copy">© 2022, Mer2cd - HTML CSS Ecommerce Templete </p>
+</body>
+
+</html>
